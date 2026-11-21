@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arabic-academic-research-toolkit"
+version = "0.2.0"
+description = "Open-source Python toolkit for Arabic academic prose auditing, scholarly style verification, and Obsidian/Antigravity humanities workflows"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Abderrahim Kaci" }
+]
+keywords = ["digital-humanities", "arabic-nlp", "epistemology", "obsidian", "zettelkasten"]
+dependencies = [
+  "gradio>=4.0.0",
+  "pyperclip>=1.8.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/rhmkaci-eng/arabic-academic-research-toolkit"
+Repository = "https://github.com/rhmkaci-eng/arabic-academic-research-toolkit"
+
+[project.scripts]
+arabic-humanize = "humanize:main"
+
+[tool.setuptools]
+py-modules = ["arabic_academic_humanizer", "humanize", "academic_humanizer_studio"]
