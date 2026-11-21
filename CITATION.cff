@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Arabic Academic Research Toolkit"
+message: "If you use this software in Arabic humanities, philosophy of religion, or digital scholarship workflows, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Kaci"
+    given-names: "Abderrahim"
+    orcid: "https://orcid.org/0009-0007-1780-7221"
+    affiliation: "University of Algiers 1 (Benyoucef Benkhedda), Faculty of Islamic Sciences"
+repository-code: "https://github.com/rhmkaci-eng/arabic-academic-research-toolkit"
+url: "https://github.com/rhmkaci-eng/arabic-academic-research-toolkit"
+license: MIT
+version: 0.2.0
+date-released: "2026-11-21"
+keywords:
+  - digital-humanities
+  - arabic-nlp
+  - epistemology
+  - citation-verification
+  - obsidian
+  - zettelkasten
